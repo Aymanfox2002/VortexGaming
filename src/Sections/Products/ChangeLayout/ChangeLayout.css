@@ -1,0 +1,36 @@
+.ChangeLayout {
+  background-color: var(--card-color);
+  border-radius: 15px;
+}
+
+.ChangeLayout .filterDrawer > button {
+  border: none;
+  background-color: transparent;
+  color: var(--color-light);
+}
+
+.ChangeLayout .filterDrawer > button span {
+  color: var(--white-50);
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.ChangeLayout .filterDrawer > button svg {
+  font-size: 23px;
+}
+
+.ChangeLayout .card_line_layout > button {
+  border: none;
+  background-color: transparent;
+  color: var(--white-50);
+  font-size: 23px;
+  transition: var(--transition-duration);
+}
+
+.ChangeLayout .card_line_layout > button:hover {
+  color: var(--color-light);
+}
+
+.ChangeLayout .card_line_layout .active{
+    color: var(--color-light);
+}

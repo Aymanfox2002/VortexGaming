@@ -1,0 +1,35 @@
+.Hero {
+  height: 500px;
+  background-image: url("../../../Assits//images/Hero.jpg");
+  background-size: cover;
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.Hero .layout {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding-left: var(--padding-primary);
+  background: var(--gradiant-hero);
+  display: flex;
+  align-items: center;
+  opacity: 0.9;
+}
+.Hero .layout .info {
+  width: 100%;
+}
+
+.Hero .layout .info h1 {
+  font-family: "Ubuntu-Bold";
+  color: var(--color-light);
+}
+
+.Hero .layout .info h1 span {
+    font-family: var(--special-font-1);
+    background: var(--gradiant-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: calc(1.9rem + 1.5vw);
+  }

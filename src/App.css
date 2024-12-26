@@ -1,0 +1,71 @@
+:root {
+  /* Colors */
+  --color-dark: #212121;
+  --color-primary: #2b4cf2;
+  --color-light: #ffffff;
+  --color-bg-body: var(--color-dark);
+  --gradiant-primary: linear-gradient(147deg, #2b4cf2, #8094f7, #4d4d4d);
+  --gradiant-mainTitle: linear-gradient(147deg, #273eb6, #eb8efb);
+  --gradiant-hero: radial-gradient(
+    circle,
+    #282828,
+    #21202a,
+    #19192d,
+    #0e122f,
+    #000831
+  );
+  --border-color: #3c3c3c;
+  --card-color: #2f2f2f;
+  --white-50: rgba(255, 255, 255, 0.5);
+  --primary-filter: #000000bf;
+
+  /* Distances */
+  --distance-primary: 60px;
+  --padding-primary: var(--distance-primary);
+  --margin-primary: var(--distance-primary);
+  --border-radius-primary: calc(var(--distance-primary) / 2);
+
+  /* Font family */
+  --main-font: "Ubuntu-Regular";
+  --special-font-1: "Tiny5-Regular";
+  --special-font-2: "Playwrite NZ";
+
+  /* transition */
+  --transition-duration: 0.3s;
+}
+
+/* Style the scrollbar track */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* Background color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2b4cf290; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners for the scrollbar thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2b4cf2a7; /* Color of the scrollbar thumb on hover */
+}
+
+body {
+  background-color: var(--color-bg-body) !important;
+  font-family: var(--main-font);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.pt-pb {
+  padding-top: var(--padding-primary);
+  padding-bottom: var(--padding-primary);
+}

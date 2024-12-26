@@ -1,0 +1,33 @@
+.ProductLine > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ProductLine > div .img-box {
+  width: 200px;
+}
+.ProductLine h3 {
+  color: var(--color-light);
+}
+.ProductLine > div .categories span {
+  margin-right: calc(var(--margin-primary) / 4);
+}
+
+.ProductLine .platforms span {
+  color: white;
+  margin-right: 10px;
+  font-size: 20px;
+  color: var(--white-50);
+}
+
+.ProductLine .studio{
+  color: var(--white-50);
+}
+
+.ProductLine .size{
+  color: var(--white-50);
+}
+
+.ProductLine .right-box{
+  display: none;
+}

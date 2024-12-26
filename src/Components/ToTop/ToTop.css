@@ -1,0 +1,13 @@
+.move-to-top {
+    transition: var(--transition-duration);
+  position: fixed;
+  bottom: 20px;
+  right: -100px;
+  opacity: 0;
+  z-index: 1000;
+  /* display: none; */
+}
+.move-to-top.show {
+    opacity: 1 !important;
+    right: 20px !important;
+}

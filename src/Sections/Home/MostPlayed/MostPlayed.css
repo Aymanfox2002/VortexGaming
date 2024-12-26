@@ -1,0 +1,40 @@
+.MostPlayed .cards-box .single-card {
+  max-width: 374px;
+  background-color: var(--card-color);
+}
+
+.MostPlayed .cards-box .single-card .box-img{
+  overflow: hidden;
+}
+
+.MostPlayed .cards-box .single-card img {
+  filter: brightness(0.8);
+  transition: var(--transition-duration);
+}
+
+.MostPlayed .cards-box .single-card:hover img{
+  transform: scale(1.2);
+  filter: brightness(1);
+}
+
+.MostPlayed .info p {
+  text-align: justify;
+}
+.MostPlayed .tags .tag {
+  margin-right: 5px;
+}
+
+.MostPlayed .explor {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  padding: 10px 15px;
+  border-radius: 6px;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  transition: 0.3s;
+}
+
+.MostPlayed .explor:hover {
+  background-color: #313131;
+}

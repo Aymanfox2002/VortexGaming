@@ -1,0 +1,73 @@
+.TopCategories{
+    background-image: url("../../../Assits//images/Categories/wallpaper.jpg");
+    background-size: cover;
+}
+
+.TopCategories .categories-box .categorie {
+  width: 166px;
+  height: 166px;
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.TopCategories .categories-box .categorie img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    filter: brightness(.8);
+    transition: var(--transition-duration);
+    z-index: -2;
+}
+
+.TopCategories .categories-box .categorie:hover img{
+    filter: brightness(.3);
+
+}
+
+.TopCategories .categories-box .categorie .info{
+    transform: translateY(215px);
+    transition: var(--transition-duration);
+}
+
+.TopCategories .categories-box .categorie:hover .info{
+    transform: translateY(0);
+}
+
+.TopCategories .categories-box .categorie h3{
+    color: var(--color-light);
+    text-align: center;
+    font-weight: 900;
+    font-size: 33px;
+    user-select: none;
+}
+
+.TopCategories .categories-box .categorie svg{
+    color: var(--color-light);
+    font-size: 44px;
+}
+.TopCategories .sticker{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: black !important;
+    border-radius: 0 10px 0 0;
+    background-color: #ffffffc2;
+    width: 49px;
+    height: 46px;
+    padding: 10px;
+    transition: var(--transition-duration);
+}
+
+.TopCategories .categories-box .categorie:hover .sticker{
+    opacity: 0;
+    bottom: -100px;
+}
+
+.TopCategories .sticker > svg{
+    color: black !important;
+    margin-top: 0 !important;
+    font-size: 30px !important;
+}

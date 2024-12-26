@@ -1,0 +1,78 @@
+.main-banner {
+  position: relative;
+  height: 742px;
+  background: linear-gradient(
+    to bottom,
+    #000d4a,
+    #0b1142,
+    #131439,
+    #171631,
+    #1a1928,
+    #191822,
+    #18181d,
+    #171717,
+    #131313,
+    #0e0e0e,
+    #070707,
+    #000000
+  );
+}
+
+.main-banner .info {
+  color: #ececec;
+  height: calc(100% - 88px);
+  z-index: 2;
+}
+
+.main-banner .main-title {
+  font-family: "Ubuntu-Bold";
+  color: var(--color-light);
+}
+.main-banner .main-title span {
+  font-family: var(--special-font-1);
+  background: var(--gradiant-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: calc(1.9rem + 1.5vw);
+}
+.main-banner .input-group {
+  width: 60%;
+  margin: auto;
+}
+.main-banner .input-group input,
+.main-banner .input-group span {
+  background-color: #212121;
+  border: 1px solid #3c3c3c;
+  z-index: 3;
+}
+
+.main-banner .input-group input::placeholder {
+  color: #ffffff4f;
+  font-size: 16px;
+}
+
+.main-banner .input-group input {
+  color: var(--color-light) !important;
+}
+
+.main-banner .hero_1 {
+  right: 100px;
+  bottom: 0;
+  width: 413px;
+  opacity: 0.5;
+}
+
+.main-banner .hero_2 {
+  left: 100px;
+  bottom: 46px;
+  width: 413px;
+  opacity: 0.5;
+  transform: rotate(11deg);
+}
+
+@media (max-width: 1200px) {
+  .main-banner .hero_1,
+  .main-banner .hero_2 {
+    display: none;
+  }
+}

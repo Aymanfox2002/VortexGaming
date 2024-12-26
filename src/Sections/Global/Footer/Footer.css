@@ -1,0 +1,10 @@
+.Footer {
+  background-color: #292929;
+  padding-top: calc(var(--padding-primary) / 3);
+  padding-bottom: calc(var(--padding-primary) / 3);
+}
+
+.Footer .info {
+  text-align: center;
+  color: var(--color-light);
+}

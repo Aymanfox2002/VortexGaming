@@ -1,0 +1,34 @@
+src/
+│
+├── components/
+│   ├── Header.js
+│   ├── Footer.js
+│   ├── ProductList.js
+│   ├── ProductItem.js
+│   ├── Cart.js
+│   ├── WishList.js
+│   ├── Profile.js
+│   └── Dashboard.js
+│
+├── pages/
+│   ├── Home.js
+│   ├── ProductDetails.js
+│   ├── CartPage.js
+│   ├── WishListPage.js
+│   ├── ProfilePage.js
+│   └── DashboardPage.js
+│
+├── App.js
+├── index.js
+└── App.css
+
+
+
+
+
+Tasks:-
+- Add the effect movement to images in MainBanner, And Use WOW.
+- Add Bottom Arrow in MainBanner to Scroll Down.
+- Don`t forget the home's responsive.
+- Add button in the bottom the 'Features' section.
+- Any section in 'Features' section navigate to some place ❗.

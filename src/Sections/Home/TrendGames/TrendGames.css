@@ -1,0 +1,106 @@
+.trendGames {
+  height: 700px;
+  background-image: url("../../../Assits/images/banner-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.trendGames .layout {
+  background-color: #000000db;
+}
+
+/* Slide Style */
+.trendGames .swiper {
+  padding-bottom: 50px;
+}
+.trendGames .slide-box {
+  position: relative;
+  height: 440px;
+  overflow: hidden;
+  border-radius: 10px;
+  cursor: pointer;
+}
+@media (max-width: 767px) {
+  .trendGames .slide-box {
+    width: 370px;
+    margin: auto;
+  }
+}
+.trendGames .slide-box .outer-title {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.636);
+  width: 100%;
+  color: var(--color-light);
+  z-index: 20;
+  transition: var(--transition-duration);
+}
+.trendGames .slide-box:hover .outer-title {
+  opacity: 0;
+}
+.trendGames .slide-box img {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
+  transition: var(--transition-duration);
+}
+
+.trendGames .slide-box:hover img {
+  filter: brightness(0.3);
+  transform: scale(1.2) rotate(2deg);
+}
+
+.trendGames .wish-icon {
+  position: absolute;
+  right: 10px;
+  top: -20px;
+  font-size: 20px;
+  color: var(--color-light);
+  transition: var(--transition-duration);
+  cursor: pointer;
+}
+
+.trendGames .slide-box:hover .wish-icon {
+  top: 10px;
+}
+.trendGames .wish-icon:hover {
+  color: rgb(222, 65, 65);
+}
+
+.trendGames .info {
+  background-color: rgba(0, 0, 0, 0.636);
+  padding: 15px;
+  transform: translateY(130px);
+  transition: 0.3s;
+  opacity: 0;
+}
+
+.trendGames .slide-box:hover .info {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.trendGames .info .game-type,
+.trendGames .info .title {
+  color: var(--color-light);
+}
+
+.trendGames .PriceButton {
+  margin-right: 10px;
+}
+
+.trendGames .swiper-pagination-bullet-active,
+.trendGames .swiper-pagination-bullet {
+  background-color: #a1a1a1;
+  transform: scale(1.2);
+  width: 21px;
+  height: 10px;
+  border-radius: 3px;
+}
+
+.trendGames .info .date {
+  font-size: 10px;
+}

@@ -1,0 +1,15 @@
+.features {
+  padding-top: calc(var(--padding-primary) + 200px);
+  padding-bottom: var(--padding-primary);
+}
+
+.features h2:first-child {
+  text-align: center;
+  /* font-family: var(--special-font-1); */
+  background: var(--gradiant-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 52px;
+  margin-bottom: calc(var(--margin-primary) * 2);
+}
+
