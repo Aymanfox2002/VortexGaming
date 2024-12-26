@@ -28,3 +28,5 @@
 > The application is fully responsive, offering a seamless experience across devices.
 
 Live Demo: [VortexGaming.com](#)
+
+> This site is for **Educational Purposes**.
