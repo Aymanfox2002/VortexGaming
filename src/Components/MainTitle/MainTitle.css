@@ -1,0 +1,26 @@
+.MainTitle {
+  margin-bottom: calc(var(--margin-primary));
+}
+
+.MainTitle h2 {
+  color: var(--color-light) !important;
+  font-weight: 900 !important;
+  position: relative;
+}
+
+.MainTitle h2::before,
+.MainTitle h2::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -17px;
+  width: 44%;
+  height: 11px;
+  background: var(  --gradiant-mainTitle);
+  border-radius: 10px;
+}
+
+.MainTitle h2::after {
+  bottom: calc(-20px + -11px + -2px);
+  width: 30%;
+}

@@ -1,0 +1,97 @@
+.Primary {
+  position: relative;
+  height: 40px;
+  padding: 0 15px;
+  line-height: 40px;
+  background-color: #f6f6f6;
+  text-align: center;
+  overflow: hidden;
+  text-decoration: none;
+  color: #333;
+  border-radius: 20px;
+  border: none;
+}
+
+.disabled {
+  pointer-events: none; /* Disables clicking */
+  color: gray; /* Visual indicator that it's disabled */
+  cursor: not-allowed; /* Changes the cursor to a "not-allowed" icon */
+  text-decoration: none; /* Optional: Remove underline to show it's inactive */
+}
+
+.Primary > i {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: var(--transition-duration);
+  z-index: 5;
+  color: var(--color-light);
+  font-size: 20px;
+}
+
+.Primary:hover > i {
+  opacity: 1;
+}
+
+.Primary > p {
+  font-weight: 900;
+  opacity: 1;
+  transition: var(--transition-duration);
+ 
+}
+
+.Primary:hover > p {
+  opacity: 0;
+}
+
+.Primary::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 50%;
+  left: 0%;
+  background-color: var(--color-primary);
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  transition: 0.4s ease-in-out ;
+}
+
+.Primary:hover::after {
+  width: 300%;
+  height: 400px;
+}
+/* --------------------------------------- */
+
+.PriceButton,
+.free,
+.priceBefore {
+  color: var(--color-light);
+  padding: 7px 10px;
+  background-color: #3f51b5;
+  border-radius: 6px;
+  font-size: 14px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.free {
+  background-color: #4caf50;
+}
+
+.priceBefore {
+  background-color: gray;
+  color: #c8c8c8;
+  font-size: 12px;
+}
+
+.tag {
+  background-color: #333;
+  padding: 5px;
+  font-size: 10px;
+  border-radius: 6px;
+  color: var(--white-50);
+  border: 1px solid var(--border-color);
+}

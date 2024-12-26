@@ -1,0 +1,40 @@
+.Accordion .accordion {
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    border: none;
+    transition: 0.4s;
+    background-color: transparent;
+    color: white !important;
+    border-bottom: 1px solid var(--white-50) !important;
+    margin-bottom: 10px;
+  }
+
+  
+  .Accordion .active, .Accordion .accordion:hover {
+    font-weight: 900;
+  }
+  
+  .Accordion .panel {
+    padding: 0px 18px;
+    color: white;
+    /* background-color: white; */
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  
+  .Accordion .accordion:after {
+    content: '\02795'; 
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .Accordion .active:after {
+    content: "\2796";
+  }
+  

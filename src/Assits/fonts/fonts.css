@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Tiny5-Regular';
+    src: url('./Tiny5-Regular.ttf') format('truetype');
+    font-weight: 100 900; /* Regular */
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Playwrite NZ';
+    src: url('./PlaywriteNZ-VariableFont_wght.ttf') format('truetype');
+    font-weight: 400; /* Regular */
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Ubuntu-Bold';
+    src: url('./Ubuntu-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Ubuntu-Light';
+    src: url('./Ubuntu-Light.ttf') format('truetype');
+    font-weight: 300; 
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Ubuntu-Regular';
+    src: url('./Ubuntu-Regular.ttf') format('truetype');
+    font-weight: 400; 
+    font-style: normal;
+  }

@@ -1,0 +1,58 @@
+.ProductCard{
+  display: flex;
+  justify-content: center;
+}
+.ProductCard > div {
+  background-color: var(--card-color);
+  border-radius: 15px;
+  max-width: 302px;
+}
+.ProductsCards.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.ProductCard .img-box {
+  border-radius: 7.5px;
+  overflow: hidden;
+  max-height: 309.4px;
+}
+
+.ProductCard .prices span {
+  font-size: 20px;
+  min-width: 40%;
+}
+
+.ProductCard h3 {
+  color: var(--color-light);
+  font-size: 21px;
+}
+
+.ProductCard .platforms span {
+  color: white;
+  margin-right: 10px;
+  font-size: 20px;
+  color: var(--white-50);
+}
+
+.ProductCard .categories span {
+  margin-right: 10px;
+}
+
+.ProductCard .cart-wish button:first-of-type {
+  width: 65%;
+}
+
+.ProductCard .cart-wish button:last-of-type {
+  margin-right: 10px;
+  width: 20%;
+  float: right;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

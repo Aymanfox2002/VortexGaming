@@ -1,0 +1,9 @@
+.FilterPanel {
+    background-color: var(--card-color);
+    border-radius: 15px;
+    padding: 40px 30px;
+}
+
+.FilterPanel h2{
+    color: var(--color-light);
+}

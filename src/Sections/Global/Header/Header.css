@@ -1,0 +1,29 @@
+.header {
+  border-bottom: 1px solid #3c3c3c;
+}
+
+.header .logo {
+  width: 130px;
+}
+
+.navbar-nav .nav-link.active {
+  color: var(--color-light) !important;
+  font-weight: 900;
+}
+
+.navbar {
+  background: rgb(60 60 60 / 20%);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.header-hidden {
+  transform: translateY(-100%);
+  transition: 0.3s ease-in-out;
+}
+
+.header-visible {
+  transform: translateY(0);
+  transition: 0.3s ease-in-out;
+}
