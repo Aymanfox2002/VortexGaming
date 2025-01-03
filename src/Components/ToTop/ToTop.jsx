@@ -16,8 +16,7 @@ const ToTop = () => {
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
-    setTimeout(() => {
-    }, 1000); // Adjust the duration as needed
+    setTimeout(() => {}, 1000); // Adjust the duration as needed
   };
 
   useEffect(() => {
@@ -29,7 +28,7 @@ const ToTop = () => {
 
   return (
     <div className={`move-to-top ${isVisible ? "show" : ""}`}>
-      <Fab color="primary" onClick={scrollToTop}>
+      <Fab color="primary" aria-label={"to top"} onClick={scrollToTop}>
         <FaAngleDoubleUp />
       </Fab>
     </div>

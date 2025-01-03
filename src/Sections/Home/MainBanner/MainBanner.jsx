@@ -5,7 +5,7 @@ import { FaSistrix } from "react-icons/fa6";
 
 const MainBanner = () => {
   return (
-    <div className="main-banner position-relative wow animate__fadeInUp">
+    <section aria-label="about us" className="main-banner position-relative wow animate__fadeInUp">
       <div className="info w-100 d-flex text-center align-items-center justify-content-center position-absolute">
         <div className="box text-white-50">
           <p>WELCOME TO VORTEX</p>
@@ -30,6 +30,7 @@ const MainBanner = () => {
               type="text"
               className="form-control text-white-50"
               placeholder="e.i Fallout 4"
+              role="search"
               aria-label="Sizing example input"
               aria-describedby="inputGroup-sizing-lg"
             />
@@ -44,7 +45,7 @@ const MainBanner = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -17,7 +17,7 @@ const TopCategories = () => {
   }, []);
 
   return (
-    <section className="TopCategories pt-pb">
+    <section aria-label="Top Categories" className="TopCategories pt-pb">
       <div className="container">
         <MainTitle title="Top Categories" buttonInfo="VIEW ALL" />
 

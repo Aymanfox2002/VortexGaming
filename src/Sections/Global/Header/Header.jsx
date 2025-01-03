@@ -35,7 +35,7 @@ const Header = () => {
   }, [lastScrollY]);
 
   return (
-    <div className="header">
+    <header role="banner" className="header">
       <nav
         className={`navbar fixed-top navbar-expand-lg navbar-dark  pt-4 pb-4 ${
           showHeader ? "header-visible" : "header-hidden"
@@ -82,7 +82,7 @@ const Header = () => {
           </div>
         </div>
       </nav>
-    </div>
+    </header>
   );
 };
 

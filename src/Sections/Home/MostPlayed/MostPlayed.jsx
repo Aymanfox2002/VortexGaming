@@ -1,5 +1,5 @@
 import "./MostPlayed.css";
-import { MainTitle, PriceButton, TagButton } from "../../../Components/index";
+import { MainTitle, TagButton } from "../../../Components/index";
 import GamesData from "../../../Data/GamesData";
 const MostPlayed = () => {
  
@@ -9,7 +9,7 @@ const MostPlayed = () => {
   );
 
   return (
-    <section className="MostPlayed pt-pb">
+    <section aria-label="Most Played" className="MostPlayed pt-pb">
       <div className="container">
         <MainTitle title="Most Played" />
 

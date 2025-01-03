@@ -18,7 +18,7 @@ import "swiper/css/pagination";
 const TrendGames = () => {
   let trendArr = GamesData.slice(0, 10);
   return (
-    <div className="trendGames position-relative">
+    <section aria-label="Trending Games" className="trendGames position-relative">
       <div className="layout position-absolute pt-pb w-100 h-100">
         <div className="container">
           <MainTitle title="Trending Games" buttonInfo="VIEW ALL" />
@@ -88,7 +88,7 @@ const TrendGames = () => {
           </Swiper>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

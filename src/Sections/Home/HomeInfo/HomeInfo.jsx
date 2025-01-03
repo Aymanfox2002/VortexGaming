@@ -2,7 +2,7 @@ import "./HomeInfo.css";
 import HomeInfoImg from "../../../Assits/images/HomeInfo.png";
 const HomeInfo = () => {
   return (
-    <section className="HomeInfo pt-pb">
+    <section aria-label="Get in Touch" className="HomeInfo pt-pb">
       <div className="container d-flex">
         <div className="box w-50">
           <h2 className="mb-4 h1">

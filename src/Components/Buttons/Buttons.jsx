@@ -20,8 +20,9 @@ const PrimaryButton = (props) => {
       } `}
       onClick={props.click}
       disabled={props.disabled}
+      aria-label={props.ariaLabel || "button"}
     >
-      <p>{props.children}</p>
+      {props.children}
       <i>{props.icon}</i>
     </button>
   );

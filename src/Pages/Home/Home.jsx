@@ -16,7 +16,7 @@ const Home = () => {
    <>
    <ToTop />
     <Header />
-    <main className="home">
+    <main role="main" className="home">
       <MainBanner />
       <TrendGames />
       <MostPlayed />

@@ -72,7 +72,7 @@ const ProductCard = (props) => {
           ))}
         </div>
         <div className="cart-wish">
-          <PrimaryButton icon={<FaCartShopping />}>Add To Cart</PrimaryButton>
+          <PrimaryButton icon={<FaCartShopping />} ariaLabel={"Add To Cart"}>Add To Cart</PrimaryButton>
           <PrimaryButton icon={<FaHeartCirclePlus />}>
             <FaHeart />
           </PrimaryButton>

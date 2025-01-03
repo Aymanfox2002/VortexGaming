@@ -96,7 +96,7 @@ const Products = () => {
     <>
       <ToTop />
       <Header />
-      <div className="Products container">
+      <main className="Products container">
         <div className="row">
           <div className="cards-col col-12">
             <Hero />
@@ -135,7 +135,7 @@ const Products = () => {
             </Stack>
           </div>
         </div>
-      </div>
+      </main>
       <Footer />
     </>
   );

@@ -26,7 +26,6 @@ const ChangeLayout = ({
   fromProductsToFilter,
   layout,
   setLayout,
-  sortMenu,
   setSortMenu,
   setItemsPerPage,
   itemsPerPage,
@@ -199,12 +198,14 @@ const ChangeLayout = ({
         <button
           className={layout === "grid" && "active"}
           onClick={() => setLayout("grid")}
+          aria-label={"grid layout"}
         >
           <FaBorderAll />
         </button>
         <button
           className={layout === "lines" && "active"}
           onClick={() => setLayout("lines")}
+          aria-label={"lines layout"}
         >
           <FaList />
         </button>
